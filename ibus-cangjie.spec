@@ -58,13 +58,15 @@ uproszczony).
 	am_cv_python_pythondir=%{py3_sitescriptdir} \
 	--disable-silent-rules
 
-%{__make}
+%{__make} \
+	libexecdir=%{_libdir}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT
+	DESTDIR=$RPM_BUILD_ROOT \
+	libexecdir=%{_libdir}
 
 %find_lang %{name}
 
