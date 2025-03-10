@@ -4,7 +4,7 @@ Summary:	The Cangjie engine for IBus input platform
 Summary(pl.UTF-8):	Silnik Cangjie dla platformy wprowadzania znaków IBus
 Name:		ibus-cangjie
 Version:	2.4
-Release:	8
+Release:	9
 License:	GPL v3+
 Group:		Libraries
 #Source0Download: https://github.com/Cangjians/ibus-cangjie/releases
